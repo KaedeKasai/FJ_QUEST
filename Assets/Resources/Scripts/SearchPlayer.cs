@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class SearhPlayer : MonoBehaviour {
+public class SearchPlayer : MonoBehaviour {
 
     public GameObject target;
     NavMeshAgent agent;

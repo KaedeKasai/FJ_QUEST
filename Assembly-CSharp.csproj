@@ -53,15 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DownloadAssets\_Gloomy_Animal\Script\CharacterSelect.cs" />
-     <Compile Include="Assets\DownloadAssets\_Gloomy_Animal\Script\MouseOrbitImproved.cs" />
      <Compile Include="Assets\DownloadAssets\com\heparo\terrain\toolkit\scripts\TerrainToolkit.cs" />
-     <Compile Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Script\CameraTarget.cs" />
-     <Compile Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Script\EffectController.cs" />
-     <Compile Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Script\EffectDemo.cs" />
-     <Compile Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Script\EffectShaderPropertyStr.cs" />
-     <Compile Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Script\RenderEffect.cs" />
-     <Compile Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\2D\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
@@ -157,14 +149,10 @@
      <Compile Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
-     <Compile Include="Assets\DownloadAssets\UnityChan\Scripts\CameraController.cs" />
-     <Compile Include="Assets\DownloadAssets\UnityChan\Scripts\FaceUpdate.cs" />
-     <Compile Include="Assets\DownloadAssets\UnityChan\Scripts\IdleChanger.cs" />
-     <Compile Include="Assets\DownloadAssets\UnityChan\Scripts\SceneLoader.cs" />
-     <Compile Include="Assets\DownloadAssets\UnityChan\Scripts\ThirdPersonCamera.cs" />
-     <Compile Include="Assets\DownloadAssets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <Compile Include="Assets\Resources\Scripts\EnamySpawn.cs" />
      <Compile Include="Assets\Resources\Scripts\GameSystem.cs" />
      <Compile Include="Assets\Resources\Scripts\SearchPlayer.cs" />
+     <Compile Include="Assets\Resources\Scripts\TimeScript.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -174,9 +162,7 @@
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
@@ -185,65 +171,45 @@
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\ImageEffects\Readme.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\license.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
-     <None Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water\DO_NOT_WORK_IN_VR.txt" />
-     <None Include="Assets\DownloadAssets\MedievalTownExteriors\Readme.txt" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
-     <None Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\DownloadAssets\sky5X\README.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
-     <None Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\Stage\Shader\AlphaMask.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
-     <None Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
-     <None Include="Assets\DownloadAssets\Particlecollection_Free samples\READ ME.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
-     <None Include="Assets\DownloadAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Cameras\CameraGuidelines.txt" />
-     <None Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
-     <None Include="Assets\DownloadAssets\FantasyEnvironments\Environments\README.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
-     <None Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Additive.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\DownloadAssets\MeshSmith\ToonMonsterII\Toon Mouse Spear\readMe.txt" />
-     <None Include="Assets\DownloadAssets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/x16u005/Documents/FJ_QUEST/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/x16u009/Documents/GitHub/FJ_QUEST/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/x16u005/Documents/FJ_QUEST/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/x16u009/Documents/GitHub/FJ_QUEST/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/x16u005/Documents/FJ_QUEST/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/x16u009/Documents/GitHub/FJ_QUEST/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/x16u005/Documents/FJ_QUEST/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/x16u009/Documents/GitHub/FJ_QUEST/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/work/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -444,10 +410,10 @@
  <HintPath>D:/work/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/x16u005/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Users/x16u009/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
- <HintPath>C:/Users/x16u005/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/x16u009/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/work/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

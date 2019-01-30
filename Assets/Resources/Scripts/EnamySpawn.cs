@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnamySpawn : MonoBehaviour {
+    
+    [SerializeField]
+    public GameObject Enemy;
 
 	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	void OnCollisionEnter (Collision collision) {
+		if(collision.gameObject.tag == "Player"){
+            Instantiate(Enemy, new Vector3(-72, 110, -100), Quaternion.identity);
+        }
 	}
 }

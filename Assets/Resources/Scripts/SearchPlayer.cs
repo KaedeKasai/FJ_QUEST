@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class SearchPlayer : MonoBehaviour {
-
+    
+    [SerializeField]
     public GameObject target;
     NavMeshAgent agent;
 
@@ -13,8 +14,16 @@ public class SearchPlayer : MonoBehaviour {
         agent = GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
-    void Update () {
-        agent.destination = target.transform.position;
+//    // Update is called once per frame
+//    void OnCollisionStay(Collision collision) {
+//		if(collision.gameObject.tag == "Player"){
+//            agent.destination = target.transform.position;
+//        }
+//	}
+    
+    void Update(){
+        if(agent.pathStatus != NavMeshPathStatus.PathInvalid) {
+            agent.destination = target.transform.position;
+        }   
     }
 }

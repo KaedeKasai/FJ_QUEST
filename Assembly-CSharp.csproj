@@ -150,7 +150,10 @@
      <Compile Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\Resources\Scripts\EnamySpawn.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemy1Anim.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemy1Attack2.cs" />
      <Compile Include="Assets\Resources\Scripts\GameSystem.cs" />
+     <Compile Include="Assets\Resources\Scripts\PlayerAttack.cs" />
      <Compile Include="Assets\Resources\Scripts\SearchPlayer.cs" />
      <Compile Include="Assets\Resources\Scripts\TimeScript.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />

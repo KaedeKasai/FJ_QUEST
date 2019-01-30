@@ -13,13 +13,6 @@ public class SearchPlayer : MonoBehaviour {
     void Start () {
         agent = GetComponent<NavMeshAgent>();
     }
-
-//    // Update is called once per frame
-//    void OnCollisionStay(Collision collision) {
-//		if(collision.gameObject.tag == "Player"){
-//            agent.destination = target.transform.position;
-//        }
-//	}
     
     void Update(){
         if(agent.pathStatus != NavMeshPathStatus.PathInvalid) {

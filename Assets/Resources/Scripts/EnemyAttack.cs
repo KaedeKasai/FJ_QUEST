@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy1Anim : MonoBehaviour {
+public class EnemyAttack : MonoBehaviour {
     
 	private Animator anim;
 	
@@ -12,9 +12,9 @@ public class Enemy1Anim : MonoBehaviour {
 	
 	void Update (){
 		if (Input.GetKey (KeyCode.X)) {
-			anim.SetBool ("Attack", true);
+			anim.SetBool("Attack", true);
 		} else {
-			anim.SetBool ("Attack", false);
-		}
+            anim.SetBool("Attack", false);
+        }
 	}
 }

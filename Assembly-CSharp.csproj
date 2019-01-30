@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DownloadAssets\chara_02\Scripts\Act_Common_Script\FacialOffset.cs" />
      <Compile Include="Assets\DownloadAssets\com\heparo\terrain\toolkit\scripts\TerrainToolkit.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\2D\Scripts\CameraFollow.cs" />
@@ -149,11 +150,15 @@
      <Compile Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
-     <Compile Include="Assets\Resources\Scripts\EnamySpawn.cs" />
-     <Compile Include="Assets\Resources\Scripts\Enemy1Anim.cs" />
-     <Compile Include="Assets\Resources\Scripts\Enemy1Attack2.cs" />
+     <Compile Include="Assets\Resources\Scripts\AttackScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\CoinScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemy2Search.cs" />
+     <Compile Include="Assets\Resources\Scripts\EnemyAttack.cs" />
+     <Compile Include="Assets\Resources\Scripts\EnemySearch.cs" />
      <Compile Include="Assets\Resources\Scripts\GameSystem.cs" />
      <Compile Include="Assets\Resources\Scripts\PlayerAttack.cs" />
+     <Compile Include="Assets\Resources\Scripts\PlayerStatus.cs" />
+     <Compile Include="Assets\Resources\Scripts\ScoreScript.cs" />
      <Compile Include="Assets\Resources\Scripts\SearchPlayer.cs" />
      <Compile Include="Assets\Resources\Scripts\TimeScript.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
@@ -167,11 +172,15 @@
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\Shield_No_Flicker.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\SDR_CHR_Alpha_1bit.shader" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\SDR_CHR.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\ImageEffects\Readme.txt" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\SDR_CHR_Alpha.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
@@ -180,7 +189,9 @@
      <None Include="Assets\DownloadAssets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water\DO_NOT_WORK_IN_VR.txt" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\AlphaBlendedWithGrow.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\SDR_CHR_WPN.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\DownloadAssets\sky5X\README.txt" />
@@ -188,11 +199,14 @@
      <None Include="Assets\DownloadAssets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\AddMultiply.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\TextureAlpha.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\AdditiveWithGrow.shader" />
      <None Include="Assets\DownloadAssets\Standard Assets\Cameras\CameraGuidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\DownloadAssets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
@@ -202,6 +216,8 @@
      <None Include="Assets\DownloadAssets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\DownloadAssets\MeshSmith\ToonMonsterII\Toon Mouse Spear\readMe.txt" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\Texture.shader" />
+     <None Include="Assets\DownloadAssets\chara_02\Shader\TransparentRim.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/x16u009/Documents/GitHub/FJ_QUEST/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

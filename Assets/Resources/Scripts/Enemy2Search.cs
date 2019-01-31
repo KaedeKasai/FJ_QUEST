@@ -19,6 +19,8 @@ public class Enemy2Search : MonoBehaviour {
     
     void OnTriggerEnter (Collider other){
         
+        Debug.Log("touch!!");
+        
         if(other.gameObject.tag != "Player"){return;}
         
         nav.speed = speed;

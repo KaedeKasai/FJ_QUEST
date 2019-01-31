@@ -152,8 +152,10 @@
      <Compile Include="Assets\DownloadAssets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\Resources\Scripts\AttackScript.cs" />
      <Compile Include="Assets\Resources\Scripts\CoinScript.cs" />
+     <Compile Include="Assets\Resources\Scripts\Enemy2Attack.cs" />
      <Compile Include="Assets\Resources\Scripts\Enemy2Search.cs" />
      <Compile Include="Assets\Resources\Scripts\EnemyAttack.cs" />
+     <Compile Include="Assets\Resources\Scripts\EnemyDestroy.cs" />
      <Compile Include="Assets\Resources\Scripts\EnemySearch.cs" />
      <Compile Include="Assets\Resources\Scripts\GameSystem.cs" />
      <Compile Include="Assets\Resources\Scripts\PlayerAttack.cs" />
